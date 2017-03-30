@@ -1,0 +1,478 @@
+@charset="utf-8";
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+@media screen and (min-width: 640px) {
+header{
+		width: 1200px;
+		margin:0 auto;
+		height: 90px;
+		background: #40bad2;
+	}
+	header h1{
+		display: inline-block;
+		background:url(../images/logo.png) no-repeat;
+		height: 30px;
+		width: 264px;
+		float: left;
+		margin-top: 33px;
+		margin-left: 28px;
+	}
+	header p{
+		font-size: 18px;
+		color: #fff;
+		float: left;
+		padding-top: 44px;
+		margin-left: 53px;
+	}
+	section{
+		width: 1200px;
+		height: 592px;
+		margin:0 auto;
+		overflow: hidden;
+	}
+	section .left{
+		width: 271px;
+		border-right: 1px solid #40bad2;
+		float: left;
+		background:#d1eef4;
+		height: 592px;
+	}
+	section .left h1{
+		background: url(../images/index.png) no-repeat;
+		width: 200px;
+		height: 200px;
+		margin-top: 34px;
+		margin-left: 37px;
+		margin-bottom: 31px;
+	}
+	nav ul li{
+		width: 271px;
+		height: 53px;
+	}
+	nav ul li:hover{
+		background:#40bad2;
+	}
+	nav ul .nav-1:hover{
+		background:url(../images/jiao.png);																
+	}
+														/*NAV*/
+	nav ul .nav-2{
+		background:#40bad2;
+	}
+	nav ul .nav-2 span{
+		font-size: 18px;
+
+		color: #fff;
+	}
+	nav ul li a img{
+		margin-right: 13px;
+	}
+	nav ul .shouye a img{
+		margin-top: 15px;
+	}
+	nav ul .nav-2 i{
+		background: url(../images/nav-2.png);
+		width: 25px;
+		height: 22px;
+	}
+	nav ul li a{
+		margin-left: 43px;
+		line-height: 53px;
+		font-size: 18px;
+		color: #000;
+	}
+	nav{
+		position: relative;
+	}
+																/*小三角*/
+	nav .jiao{
+		position: absolute;
+		left: 272px;
+		top:74px;
+	}
+																/*内容区域改的*/
+	.right{
+		float: left;
+		width: 860px;
+		margin-left: 24px;
+		position: relative;
+	}
+	.right-s{
+		width: 860px;
+		border-bottom: 1px solid #efefef;
+		padding-top: 15px;
+		margin-bottom: 30px;
+	}
+	.right-s p{
+		color: #72b7bc;
+		font-size: 14px;
+		line-height: 40px;
+		margin-left: 4px;
+	}
+	.x-s{
+		background:url(../images/tuji-x.png) no-repeat;
+		width: 838px;
+		height: 127px;
+		margin-left: 4px;
+		margin-bottom: 80px;
+	}
+	.x-s span{
+		font-size: 14px;
+		color: #333333;
+		display: block;
+		width: 199px;
+		text-align: center;
+		padding-top: 150px;
+		float: left;
+		margin-right: 14px;
+	}
+	.x-s .span-4{
+		margin-right: 0;
+	}
+	.x-x{
+		background:url(../images/tuji-x.png) no-repeat;
+		width: 838px;
+		height: 127px;
+		margin-left: 4px;
+	}
+	.right-xx{
+		clear: both;
+		position: relative;
+		top: 30px;
+	}
+	.right-xx form .syy{
+		width: 70px;
+		height: 34px;
+		border:1px solid #ddd;
+		font-size: 12px;
+		color: #646464;
+		margin-right: 8px;
+	}
+	.right-xx form .lanshang{
+		width: 70px;
+		height: 34px;
+		border:1px solid #ddd;
+		font-size: 12px;
+		color: #646464;
+		margin-right: 8px;
+	}
+	.right-xx form .lan{
+		height: 34px;
+		width:34px;
+		background:#40bad2;
+		color: #fff;
+		font-size: 12px;
+		border:1px solid #ddd;
+	}
+	.right-xx form .one{
+		height: 34px;
+		width:34px;
+		background:#f2f2f2;
+		color: #646464;
+		font-size: 12px;
+		border:1px solid #ddd;
+		margin-right: 4px;
+	}
+	.right-xx form .kong{
+		width: 34px;
+		height: 34px;
+		border:1px solid #ddd;
+		background:#fff;
+	}
+	.right-xx form .qd{
+		width: 53px;
+		height: 34px;
+		background:#f2f2f2;
+		color: #646464;
+		border:1px solid #ddd;
+		margin-left: 15px;
+	}
+
+	                                                                /*到这*/
+	.lil{
+		width: 1200px;
+		height: 68px;
+		background: #d9f1f6;
+		margin:0 auto;
+	}
+	.lil span{
+		line-height: 68px;
+		font-size: 18px;
+		color: #666;
+		float: left;
+	}
+	.lil-1{
+		margin-left: 128px;
+	}
+	.lil-1 i{
+		display: inline-block;
+		background: url(../images/xinlang.png) no-repeat;
+		width: 27px;
+		height: 22px;
+		margin-right: 5px;
+		float: left;
+		position: relative;
+		top: 22px;
+	}
+	.lil-1 p{
+		float: left;
+		margin-right: 5px;
+	}
+	.lil-2 i{
+		display: inline-block;
+		background: url(../images/shouji.png) no-repeat;
+		width: 16px;
+		height: 27px;
+		margin-right: 5px;
+		float: left;
+		position: relative;
+		top: 20px;
+	}
+	.lil-2 p{
+		margin-right: 5px;
+	}
+	.lil-3 i{
+		display: inline-block;
+		background: url(../images/qq.png) no-repeat;
+		width: 24px;
+		height: 25px;
+		margin-right: 5px;
+		float: left;
+		position: relative;
+		top: 23px;
+	}
+	footer{
+		width: 1200px;
+		height: 68px;
+		background:#fff;
+		margin:0 auto;
+	}
+	footer span{
+		font-size: 12px;
+		line-height: 68px;
+		color: #666;
+		margin-left: 332px;
+	}
+	footer .foot-1{
+		margin-left: 38px;
+	}
+}
+@media screen and (max-width: 641px) {
+	header{
+		width: 100%;
+		height: 91px;
+		background:#ffe465;
+		overflow: hidden;
+	}
+	.bj h1{
+		background:url(../images/lan-logo.png) no-repeat;
+		position: relative;
+		top: 30px;
+		width: 238px;
+		height: 30px;
+		margin:0 auto;
+	}
+	header p{
+		display: none;
+	}
+	section .left .bj{
+		display: none;
+	}
+	nav ul li img{
+		display: none;
+	}
+	nav ul li span{
+		display: none;
+	}
+	nav ul li{
+		float: left;
+		width: 128px;
+	}
+	nav {
+		width: 640px;
+		height: 146px;
+	}
+	nav ul li{
+		margin-top: 60px;
+	}
+	nav ul li .i-1{
+		display: block;
+		background:url(../images/biao-sy.png) no-repeat 0 0;
+		width: 41px;
+		height: 33px;
+		margin:0 auto;
+	}
+	nav ul li .i-2{
+		display: block;
+		background:url(../images/biao-sy.png) no-repeat -125px -94px;
+		width: 40px;
+		height: 30px;
+		margin:0 auto;
+
+	}
+	nav ul li .i-3{
+		display: block;
+		background:url(../images/biao-sy.png) no-repeat -252px 0;
+		width: 32px;
+		height: 37px;
+		margin:0 auto;
+	}
+	nav ul li .i-4{
+		display: block;
+		background:url(../images/biao-sy.png) no-repeat -380px 0;
+		width: 28px;
+		height: 29px;
+		margin:0 auto;
+	}
+	nav ul li .i-5{
+		display: block;
+		background:url(../images/biao-sy.png) no-repeat -503px 0;
+		width: 28px;
+		height: 32px;
+		margin:0 auto;
+	}
+	nav .jiao{
+		display: none;
+	}
+	.right-s{
+		display: none;
+	}
+	.right-x .x-s span .xiong{
+		display: block;
+		background:url(../images/tuji-1da.png) no-repeat;
+		width: 608px;
+		height: 374px;
+	}
+	.right-x .x-s span{
+		display: block;
+		width: 610px;
+		height: 458px;
+		border:1px solid #cdcdcd;
+		margin-bottom: 25px;
+		margin:0 auto;
+		font-size: 30px;
+		color: #333;
+		position: relative;
+	}
+	.right-x .x-s span .xin{
+		display: block;
+		background:url(../images/huixin.png) no-repeat;
+		width: 39px;
+		height: 32px;
+		margin-left: 452px;
+		margin-top: -27px;
+	}
+	.right-x .x-s span .san{
+		display: block;
+		background:url(../images/gang.png) no-repeat;
+		width: 32px;
+		height: 26px;
+		margin-left: 520px;
+		margin-top: -29px;
+	}
+	.x-x{
+		display: none;
+	}
+	.right-xx form .lan,.one,.qd,.kong,.sp{
+		display: none;
+	}
+	.right-xx form{
+		margin-top: 47px;
+		height: 100px;
+		margin-bottom: 53px;
+	}
+	.right-xx form .syy{
+		width: 272px;
+		height: 70px;
+		background:#f2f2f2;
+		border:1px solid #ddd;
+		font-size: 30px;
+		color: #ccc;
+		float: left;
+		margin-left: 20px;
+		margin-right: 30px;
+	}
+	.right-xx form .lanshang{
+		width: 272px;
+		height: 70px;
+		font-size: 30px;
+		color: #ccc;
+		background:#39949b;
+		float: left;
+	}
+	.lil{
+		width: 603px;
+		height: 174px;
+		background:#cce5e7;
+		margin:0 auto;
+		clear: both;
+		overflow: hidden;
+		padding-top: 50px;
+		padding-left: 37px;
+		margin-top:53px;
+	}
+	.lil p{
+		float: left;
+		font-size: 18px;
+		color: #616161;
+	}
+	.lil-1 i{
+		display: inline-block;
+		background: url(../images/xinlang.png) no-repeat;
+		width: 27px;
+		height: 22px;
+		float: left;
+		margin-right: 10px;
+	}
+	.lil-1 p{
+		float: left;
+		margin-right: 5px;
+		margin-bottom: 10px;
+	}
+	.lil-2 i{
+		display: inline-block;
+		background: url(../images/shouji.png) no-repeat;
+		width: 16px;
+		height: 27px;
+		float: left;
+		margin-right: 20px;
+		clear: both;
+	}
+	.lil-2 p{
+		margin-right: 5px;
+		margin-bottom: 10px;
+	}
+	.lil-3 i{
+		display: inline-block;
+		background: url(../images/qq.png) no-repeat;
+		width: 24px;
+		height: 25px;
+		float: left;
+		clear: both;
+		margin-right: 10px;
+	}
+	footer{
+		height:115px;
+		overflow: hidden;
+		clear: left;
+	}
+	footer span{
+		font-size: 12px;
+		color: #a2a2a2;
+		margin-left: 50px;
+		position: relative;
+		top: 50px;
+	}
+	footer .foot-1{
+		margin-left: 30px;
+	}
+	.lil{
+		
+	}
+}
+}

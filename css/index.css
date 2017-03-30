@@ -1,0 +1,400 @@
+@charset="utf-8";
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+@media screen and (min-width: 641px) {
+	header{
+		width: 1200px;
+		margin:0 auto;
+		height: 90px;
+		background: #40bad2;
+	}
+	header h1{
+		display: inline-block;
+		background:url(../images/logo.png) no-repeat;
+		height: 30px;
+		width: 264px;
+		float: left;
+		margin-top: 33px;
+		margin-left: 28px;
+	}
+	header p{
+		font-size: 18px;
+		color: #fff;
+		float: left;
+		padding-top: 44px;
+		margin-left: 53px;
+	}
+	section{
+		width: 1200px;
+		height: 592px;
+		margin:0 auto;
+		overflow: hidden;
+	}
+	section .left{
+		width: 271px;
+		border-right: 1px solid #40bad2;
+		float: left;
+		background:#d1eef4;
+		height: 592px;
+	}
+	section .left h1{
+		background: url(../images/index.png) no-repeat;
+		width: 200px;
+		height: 200px;
+		margin-top: 34px;
+		margin-left: 37px;
+		margin-bottom: 31px;
+	}
+	nav ul li{
+		width: 271px;
+		height: 53px;
+	}
+	nav ul li:hover{
+		background:#40bad2;
+	}
+	nav ul .nav-1:hover{
+		background:url(../images/jiao.png);
+	}
+	nav ul .shouye{
+		background:#40bad2;
+	}
+	nav ul .shouye span{
+		font-size: 18px;
+
+		color: #fff;
+	}
+	nav ul li a img{
+		margin-right: 13px;
+	}
+	nav ul .shouye a img{
+		margin-top: 15px;
+	}
+	nav ul .nav-2 i{
+		background: url(../images/nav-2.png);
+		width: 25px;
+		height: 22px;
+	}
+	nav ul li a{
+		margin-left: 43px;
+		line-height: 53px;
+		font-size: 18px;
+		color: #000;
+	}
+	nav{
+		position: relative;
+	}
+	nav .jiao{
+		position: absolute;
+		left: 272px;
+		top:16px;
+	}
+	section .right{
+		width: 928px;
+		height:592px;
+		background: #fff;
+		float: left;
+	}
+	section .right h1{
+		background:url(../images/banner.png) no-repeat;
+		width: 864px;
+		height: 318px;
+		margin-top: 33px;
+		margin-left: 32px;
+		margin-bottom:33px; 
+	}
+	section .right h2 i{
+		background: url(../images/xinxin.png) no-repeat;
+		width: 22px;
+		height:21px;
+		margin-right: 25px;
+		float: left;
+		margin-left: 32px;
+	}
+	section .right h2 span{
+		font-size: 18px;
+		color: #000;
+		font-weight: 500;
+	}
+	section .right h2 {
+		margin-bottom: 26px;
+	}
+	section .right ul li{
+		margin-right: 18px;
+		float: left;
+	}
+	section .right ul .tu-1{
+		background:url(../images/banner-1.png);
+		width: 205px;
+		height: 131px;
+		margin-left: 32px;
+	}
+	section .right ul .tu-2{
+		background:url(../images/banner-2.png);
+		width: 206px;
+		height: 131px;
+
+	}
+	section .right ul .tu-3{
+		background:url(../images/banner-3.png);
+		width: 207px;
+		height: 131px;
+
+	}
+	section .right ul .tu-4{
+		background:url(../images/banner-4.png);
+		width: 197px;
+		height: 131px;
+
+	}
+	.lil{
+		width: 1200px;
+		height: 68px;
+		background: #d9f1f6;
+		margin:0 auto;
+	}
+	.lil span{
+		line-height: 68px;
+		font-size: 18px;
+		color: #666;
+		float: left;
+	}
+	.lil-1{
+		margin-left: 128px;
+	}
+	.lil-1 i{
+		display: inline-block;
+		background: url(../images/xinlang.png) no-repeat;
+		width: 27px;
+		height: 22px;
+		margin-right: 5px;
+		float: left;
+		position: relative;
+		top: 22px;
+	}
+	.lil-1 p{
+		float: left;
+		margin-right: 5px;
+	}
+	.lil-2 i{
+		display: inline-block;
+		background: url(../images/shouji.png) no-repeat;
+		width: 16px;
+		height: 27px;
+		margin-right: 5px;
+		float: left;
+		position: relative;
+		top: 20px;
+	}
+	.lil-2 p{
+		margin-right: 5px;
+	}
+	.lil-3 i{
+		display: inline-block;
+		background: url(../images/qq.png) no-repeat;
+		width: 24px;
+		height: 25px;
+		margin-right: 5px;
+		float: left;
+		position: relative;
+		top: 23px;
+	}
+	footer{
+		width: 1200px;
+		height: 68px;
+		background:#fff;
+		margin:0 auto;
+	}
+	footer span{
+		font-size: 12px;
+		line-height: 68px;
+		color: #666;
+		margin-left: 332px;
+	}
+	footer .foot-1{
+		margin-left: 38px;
+	}
+}
+@media screen and (max-width: 641px) {
+	header{
+		width: 640px;
+		margin:0 auto;
+	}
+	header .bj{
+		width: 640px;
+		height: 60px;
+		background:#ffe467;
+		padding-top: 30px;
+	}
+	header h1{
+		height: 30px;
+		width: 264px;
+		background:#ffe467;
+		background:url(../images/logo.png) no-repeat;
+		margin:0 auto;
+	}
+	header p{
+		display: block;
+		width: 640px;
+		line-height: 100px;
+		background:#fff;
+		color: #609599;
+		font-size: 18px;
+		text-align: center;
+	}
+	section{
+		width: 640px;
+		margin:0 auto;
+	}
+	section .left h1{
+		background:url(../images/index.png) no-repeat;
+		width: 200px;
+		height: 200px;
+		margin-left: 200px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	nav{
+		height: 127px;
+	}
+	nav .jiao{
+		display: none;
+	}
+	nav ul li{
+		width: 128px;
+		float: left;
+		margin-top: 40px;
+		text-align: center;
+	}
+	nav ul li span{
+		display: none;
+	}
+	nav ul .shouye img{
+		display: none;
+	}
+	nav ul .shouye i{
+		display: block;
+		background:url(../images/about-shouye.png) no-repeat;
+		width: 27px;
+		height: 22px;
+		margin-left: 60px;
+	}
+	.right h1{
+		background:url(../images/banner.png);
+		width: 640px;
+		height: 338px;
+	}
+	.right h2{
+		line-height: 100px;
+	}
+	.right h2 i{
+		display: inline-block;
+		background:url(../images/xinxin.png) no-repeat;
+		width: 22px;
+		height: 21px;
+		margin-left: 250px;
+		margin-right: 20px;
+	}
+	.right ul{
+		margin-left: 23px;
+	}
+	.right ul .tu-1{
+		background:url(../images/banner-1.png) no-repeat;
+		width: 205px;
+		height: 131px;
+		float: left;
+	}
+	.right ul .tu-2{
+		background:url(../images/banner-2.png) no-repeat;
+		width: 206px;
+		height: 131px;
+		float: right;
+		margin-right: 20px;
+	}
+	.right ul .tu-3{
+		background:url(../images/banner-3.png) no-repeat;
+		width: 206px;
+		height: 131px;
+		clear: both;
+		float: left;
+	}
+	.right ul .tu-4{
+		background:url(../images/banner-4.png) no-repeat;
+		width: 206px;
+		height: 131px;
+		margin-right: 20px;
+		float: right;
+	}
+	.lil{
+		width: 603px;
+		height: 174px;
+		background:#cce5e7;
+		margin:0 auto;
+		clear: both;
+		overflow: hidden;
+		padding-top: 50px;
+		padding-left: 37px;
+	}
+	.lil p{
+		float: left;
+		font-size: 18px;
+		color: #616161;
+	}
+	.lil-1 i{
+		display: inline-block;
+		background: url(../images/xinlang.png) no-repeat;
+		width: 27px;
+		height: 22px;
+		float: left;
+		margin-right: 10px;
+	}
+	.lil-1 p{
+		float: left;
+		margin-right: 5px;
+		margin-bottom: 10px;
+	}
+	.lil-2 i{
+		display: inline-block;
+		background: url(../images/shouji.png) no-repeat;
+		width: 16px;
+		height: 27px;
+		float: left;
+		margin-right: 20px;
+		clear: both;
+	}
+	.lil-2 p{
+		margin-right: 5px;
+		margin-bottom: 10px;
+	}
+	.lil-3 i{
+		display: inline-block;
+		background: url(../images/qq.png) no-repeat;
+		width: 24px;
+		height: 25px;
+		float: left;
+		clear: both;
+		margin-right: 10px;
+	}
+	footer{
+		height:115px;
+		overflow: hidden;
+		clear: left;
+	}
+	footer span{
+		font-size: 12px;
+		color: #a2a2a2;
+		margin-left: 50px;
+		position: relative;
+		top: 50px;
+	}
+	footer .foot-1{
+		margin-left: 30px;
+	}
+	.lil{
+		
+	}
+}
